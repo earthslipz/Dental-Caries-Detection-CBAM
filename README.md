@@ -5,17 +5,6 @@
 
 ---
 
-## 👥 Project Team
-
-**Authors:**
-* **Phubase Sangliamthong**
-* **Aroonrat Choochue**
-
-**Advisor:**
-* **Dr. Kanoksak Wattanachote**
-
----
-
 ## 📌 Abstract
 This repository contains the official implementation of the paper **"Attention-Enhanced EfficientNet with Anatomy-Aware Test-Time Augmentation for Robust Dental Caries Detection"**.
 
