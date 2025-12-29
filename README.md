@@ -8,7 +8,9 @@
 ## 📌 Abstract
 This repository contains the official implementation of the paper **"Attention-Enhanced EfficientNet with Anatomy-Aware Test-Time Augmentation for Robust Dental Caries Detection"**.
 
-Dental caries detection faces severe challenges due to class imbalance (13:1 ratio in clinical settings) and the subtle nature of early lesions. We propose a solution that combines:
+Dental caries detection faces severe challenges due to class imbalance (13:1 ratio in clinical settings) and the subtle nature of early lesions. **In this study, we utilize a dataset derived from 1,269 anonymized dental radiographs, processed into 4,652 individual tooth images to focus on specific pathologies.**
+
+We propose a solution that combines:
 1.  **Architecture:** EfficientNet-B0 integrated with **Convolutional Block Attention Module (CBAM)** to focus spatially on subtle lesions.
 2.  **Inference:** **Anatomy-Aware Test-Time Augmentation (TTA)** that strictly respects dental morphology (excluding anatomically invalid horizontal flips).
 
